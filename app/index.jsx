@@ -1,13 +1,12 @@
 import React from 'react';
-import { Provider } from 'react-redux';
 import { render } from 'react-dom';
 
-import store from './store';
+import './styles/main.scss';
 
 const App = () => (
-  <Provider store={store}>
+  <div>
     <h1>Hello World!</h1>
-  </Provider>
+  </div>
 );
 
 render(<App />, document.getElementById('app'));

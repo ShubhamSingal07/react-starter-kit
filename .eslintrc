@@ -16,6 +16,8 @@
     "arrow-body-style": 0,
     "react/prop-types": 0,
     "react/no-unused-state": 0,
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "func-names": "off",
+    "linebreak-style": 0
   }
 }
